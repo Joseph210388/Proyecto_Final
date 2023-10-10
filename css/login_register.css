@@ -14,6 +14,8 @@
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     background-image: url("/img/51-imagen-1546253182021.jpg");
+    background-color: rgba(97, 94, 94, 0.651);
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
@@ -101,6 +103,9 @@
     display: flex;
     flex-direction: row;
     margin-top: 10px;
+    position: absolute;
+    top: 428px;
+    left: 129px;
   }
   .form__input_terms_conditions input{
     margin-right: 20px;
@@ -108,6 +113,9 @@
   .form__input_terms_conditions p,a{
     margin-right: 3px;
     font-size: 11px;
+  }
+  .form__input_terms_conditions a{
+    color: #93291E;
   }
 
   .form__span {
@@ -120,9 +128,9 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-size: 15px;
-    margin-top: 25px;
+    margin-top: 8px;
     border-bottom: 1px solid #ED213A;
-    line-height: 2;
+    text-decoration: none;
   }
   
   .title {
@@ -162,7 +170,7 @@
     width: 180px;
     height: 50px;
     border-radius: 25px;
-    margin-top: 50px;
+    margin-top: 25px;
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 1.15px;
